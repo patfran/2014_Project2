@@ -100,6 +100,7 @@ textarea {
 	height: 64px;
 	margin: auto;
 	text-align: center;
+	font-size: 18px;
 }
 
 #navbar ul {
@@ -115,50 +116,53 @@ textarea {
 
 #navbar a {
 	color: #000000;
-	font-size: 14px;
 	text-decoration: none;
 }
 
 #navbar a:hover{
 	color: #000000;
-	font-size: 14px;
 	text-decoration: underline;
 }
    
 #title {
+	width: 596px;
 	margin: auto;
 	text-align: center;
-	/*font-size: 36px;*/
+	font-size: 36px;
 	font-weight: bold;
 }
 
 #subtitle{
-	margin: auto;
+	width: 596px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -30px;
 	text-align: center;
 	font-size: 24px;
-	line-height: 25%;
 }
 
-#bg {
-	width: 960px;
-	height: 550px;
+#content p{
+	width: 596px;
+	font-size: 18px;
+	margin: auto;
+}
+
+#content img {
+	/*width: 960px;*/
 	overflow: hidden;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-#bg img {
-	width: 100%;
-}
-
-#content {
-	font-size: 14px;
-	width: 960px;
-	margin: auto;
+#content .caption {
+	width: 596px;
+	text-align: center;
+	font-style: italic;
 }
 
 #next {
+	width: 596px;
 	margin: auto;
 	text-align: center;
 	font-size: 18px;
@@ -169,8 +173,9 @@ textarea {
 	max-width: 25px;
 }
 
-
-
+#next p{
+	font-size: 18px;
+}
 
 
 
