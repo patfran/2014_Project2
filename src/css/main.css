@@ -97,16 +97,16 @@ textarea {
 
 #navbar {
 	width: 960px;
-	height: 85px;
+	height: 64px;
 	margin: auto;
 	text-align: center;
 }
 
 #navbar ul {
    	position: relative;
-	top: 25%;
+	top: 50%;
 }
-   
+
 #navbar li {
 	display: inline;
 	margin-left: 15px;
@@ -128,8 +128,15 @@ textarea {
 #title {
 	margin: auto;
 	text-align: center;
-	font-size: 36px;
+	/*font-size: 36px;*/
 	font-weight: bold;
+}
+
+#subtitle{
+	margin: auto;
+	text-align: center;
+	font-size: 24px;
+	line-height: 25%;
 }
 
 #bg {
@@ -147,16 +154,14 @@ textarea {
 
 #content {
 	font-size: 14px;
+	width: 960px;
+	margin: auto;
 }
-
-
-
-
 
 #next {
 	margin: auto;
 	text-align: center;
-	font-size: 24px;
+	font-size: 18px;
 }
    
 #next img{
