@@ -123,6 +123,10 @@ textarea {
 	color: #000000;
 	text-decoration: underline;
 }
+
+#navbar .current{
+	font-weight: bold;
+}
    
 #title {
 	width: 596px;
