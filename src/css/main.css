@@ -145,12 +145,6 @@ textarea {
 	font-size: 24px;
 }
 
-#form-content{
-	width: 596px;
-	margin-left: 375px;
-	text-align: left;
-}
-
 #content p{
 	width: 596px;
 	font-size: 18px;
@@ -170,6 +164,17 @@ textarea {
 	text-align: center;
 	font-style: italic;
 }
+
+#content form{
+	width: 370px;
+	margin: auto;
+}
+
+#form-content{
+	width: 596px;
+	text-align: left;
+}
+
 
 #next {
 	width: 596px;
